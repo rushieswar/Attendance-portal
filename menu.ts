@@ -1195,6 +1195,13 @@ export const teacherMenu = {
 		icon: 'EventNote',
 		subMenu: null,
 	},
+	calendar: {
+		id: 'schoolCalendar',
+		text: 'School Calendar',
+		path: '/teacher/calendar',
+		icon: 'Event',
+		subMenu: null,
+	},
 	announcements: {
 		id: 'teacherAnnouncements',
 		text: 'Announcements',
@@ -1224,6 +1231,13 @@ export const parentMenu = {
 		text: 'Grades',
 		path: '/parent/grades',
 		icon: 'Grade',
+		subMenu: null,
+	},
+	calendar: {
+		id: 'schoolCalendar',
+		text: 'School Calendar',
+		path: '/parent/calendar',
+		icon: 'Event',
 		subMenu: null,
 	},
 	announcements: {
